@@ -1,0 +1,17 @@
+{
+  "name": "cosmosdb-nodejs-tryouts",
+  "version": "0.0.1",
+  "description": "CosmosDb NodeJS Tryouts",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "start": "set NODE_TLS_REJECT_UNAUTHORIZED=0&& node index.js"
+  },
+  "author": "ari.kekalainen@gmail.com",
+  "license": "MIT",
+  "dependencies": {
+    "documentdb": "^1.14.1",
+    "q": "^1.5.1",
+    "lodash": "^4.17.4"
+  }
+}
