@@ -18,9 +18,11 @@
  * - npm install
  * WITH Real CosmosDb account
  * - node index.js
- * WITH CosmosDB emulator
+ * WITH CosmosDB emulator (Windows10 command prompt)
  * - set NODE_TLS_REJECT_UNAUTHORIZED=0&& node index.js
- *
+ * WITH CosmosDB emulator (Windows10 mingw32 etc.)
+ * - NODE_TLS_REJECT_UNAUTHORIZED=0 node index.js
+
  */
 
 "use strict";

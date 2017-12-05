@@ -1,7 +1,7 @@
 # CosmosDB NodeJs SDK tryout
 The purpose is to demo which is really working and which is not
 E.g. there are some undocumented "features" with partitioning and permissions.
-Note that CosmosDB is evolving rabidly and hopefully some problems will be solved in near future
+Note that CosmosDB is evolving rapidly and hopefully some problems will be solved in near future
 including the improvements to Node.js SDK for DocumentDB API
 https://github.com/Azure/azure-documentdb-node  
 
@@ -14,8 +14,8 @@ https://github.com/Azure/azure-documentdb-node
 - Install NodeJs (4.x => ) : https://nodejs.org
 - Create CosmosDb Account or use CosmosDb emulator
   - CosmosDb emulator : https://docs.microsoft.com/en-us/azure/cosmos-db/local-emulator
-- Create Database (id = config.databaseId)
-- Create Collection (id = config.collectionId)
+- Create Database (id = config.databaseId, e.g. ToDoList)
+- Create Collection (id = config.collectionId, e.g. Items)
   - Size: unlimited
   - PartitionKey: /partition (= config.partitionKey)
 - Get authKey and store it to config.authKey
